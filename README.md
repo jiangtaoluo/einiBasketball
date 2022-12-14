@@ -9,11 +9,13 @@ conda install pytorch==1.1.0 torchvision==0.3.0 -c pytorch
 ```
 GPU Memmory >= 10G, Memory >= 20G(LINUX with CUDN)
 
-the path of the pretrianed model
-```
+
+* Pre-trained Model 
+* ([pose_hrnet_w48_256x192.pth](https://pan.baidu.com/s/1u3zXr-kah-TuLuePVBPqoQ?pwd=qb3n), [r50_ibn_a.pth](https://pan.baidu.com/s/1-fF4th4kE9h5zt41SHPgAg?pwd=62sh)) 
+* please download it to path ``
 r50_ibn_a.pth : core/models/model_reid.py line 71
 pose_hrnet_w48_256x192.pth: core/models/model_keypoints/config/default.py line 133
-```
+``)
 
 train
 ```
