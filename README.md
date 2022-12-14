@@ -3,8 +3,8 @@ It is for the code and dataset for the Re-Identification Algorithm for Multiplay
 
 ### env setting
 ```
-conda create -n srnet python=3.7
-conda activate srnet
+conda create -n sw2mp python=3.7
+conda activate sw2mp
 conda install pytorch==1.1.0 torchvision==0.3.0 -c pytorch
 ```
 GPU Memmory >= 10G, Memory >= 20G(LINUX with CUDN)
